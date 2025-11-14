@@ -55,6 +55,7 @@ ylabel('Molar volume V_m (L/mol)');
 title(sprintf('Methane (CH_4) — Redlich–Kwong EOS at P = %.0f bar', P));
 grid on;
 xlim([Tmin Tmax]);
+ylim([0.1,0.5]);
 
 % Sample outputs
 disp('Sample outputs (T, V_m):');
